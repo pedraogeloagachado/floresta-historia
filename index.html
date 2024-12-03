@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História Interativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Lua-arvore.JPG" alt="Caminho na floresta">
+        <h1>História Interativa: O Caminho na Floresta</h1>
+    </header>
+    <main>
+        <section id="story">
+            <p id="story-text">Você está em uma floresta misteriosa e ouve um som distante. O que você faz?</p>
+            <div id="choices">
+                <button onclick="makeChoice(1)">Investigar o som</button>
+                <button onclick="makeChoice(2)">Ignorar e seguir em frente</button>
+                <button onclick="makeChoice(3)">Subir em uma árvore para se esconder</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 História Interativa. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
